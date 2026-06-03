@@ -1,0 +1,14 @@
+{
+  "description": "Open-source guarded scaffold materialization for secure project templates.",
+  "entrypoint": "python -m system.scaffold_guard",
+  "license": "MIT",
+  "name": "scaffold-guard",
+  "policy": {
+    "executes_template_scripts": false,
+    "materialization": "atomic-staging-with-manifest",
+    "secret_scan": true,
+    "remote_source_policy": "allowlist-plus-optional-checksum",
+    "source_modes": ["directory", "tar-archive", "github-archive"]
+  },
+  "version": "0.1.0"
+}

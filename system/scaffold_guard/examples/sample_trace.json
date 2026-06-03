@@ -1,0 +1,36 @@
+{
+  "audit": {
+    "changed": [],
+    "destination": "./generated/agent-safe-python-service",
+    "elapsed_microseconds": 1200,
+    "extra": [],
+    "file_count": 8,
+    "findings": [],
+    "manifest_found": true,
+    "missing": [],
+    "passed": true
+  },
+  "created_at_epoch": 1767225600,
+  "destination": "./generated/agent-safe-python-service",
+  "directive": "create a guarded Python service scaffold for an open-source agent workflow",
+  "engine": "openclaw-scaffold-guard",
+  "file_count": 8,
+  "manifest_path": "./generated/agent-safe-python-service/.scaffold_guard/manifest.json",
+  "policy_profile": {
+    "max_archive_bytes": 15000000,
+    "max_file_bytes": 524288,
+    "name": "commercial",
+    "network_enabled_by_default": false,
+    "require_remote_checksum": true,
+    "require_signed_lock": true
+  },
+  "provenance": {
+    "checksum_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "source": "github:example-org/agent-safe-python-service#v1.0.0",
+    "source_type": "github_archive"
+  },
+  "requester": "community-maintainer",
+  "rolled_back": false,
+  "source": "./templates/agent-safe-python-service",
+  "trace_version": 1
+}

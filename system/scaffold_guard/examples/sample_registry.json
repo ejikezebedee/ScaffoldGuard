@@ -1,0 +1,33 @@
+{
+  "templates": [
+    {
+      "checksum_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "id": "agent-safe-python-service",
+      "intended_use": "Minimal Python service scaffold for agent-assisted open-source development",
+      "owner": "open-source-maintainers",
+      "policy_profile": "commercial",
+      "source": "github:example-org/agent-safe-python-service#v1.0.0",
+      "source_type": "github_archive",
+      "tags": [
+        "python",
+        "agent-safe",
+        "service"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "local-docs-starter",
+      "intended_use": "Local documentation starter for project maintainers",
+      "owner": "open-source-maintainers",
+      "policy_profile": "dev",
+      "source": "./examples/templates/local-docs-starter",
+      "source_type": "local_directory",
+      "tags": [
+        "docs",
+        "local",
+        "starter"
+      ],
+      "version": "0.1.0"
+    }
+  ]
+}
